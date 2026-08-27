@@ -9,4 +9,4 @@ WHERE jpf.job_country = 'United States'
 GROUP BY cd.name
 HAVING COUNT(jpf.job_id) > 3000
 ORDER BY posting_count DESC
-LIMIT 20;
+LIMIT 50;
